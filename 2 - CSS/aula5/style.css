@@ -1,0 +1,51 @@
+/*USAMOS O CSS NUM ARQUIVO SEPARADO, E NELE COLOCAMOS TODAS AS CONFIGURAÇÕES DE ESTILOS DA PAGINA*/
+
+
+body {
+    background-color: rgb(212, 215, 216);
+    background-image: url(background.jpg); /*para selecionar uma imagem ao background*/
+    background-repeat:no-repeat; /*para não repetir a imagem de fundo */
+   /* background-position: 100% 10%; definir aonde voce quer que fique a imagem
+        podendo tambem receber valores como: "center" "top" "left" "botton"*/
+    background-position: center center;
+    background-size: cover; /*para ocupar a tela toda*/
+    background-attachment: fixed; /*para deixar o background fixo*/
+}
+
+/*aqui é recebido os parametros*/
+
+.foto-principal {
+    width: 200px;
+    border: 2px inset rgb(255, 255, 255);/*shortherd*/
+    border-radius: 100px; /*para deixar a borda arrendodada*/
+     /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+    
+    margin: 30px 30px 30px 30px; /*shortherd*/
+    /*margin-top: 30px; /*espaçamento
+    margin-bottom: 30px;*/
+}
+
+p {
+    color: rgb(68, 67, 67);
+}
+
+/*
+h1 {
+    color: rgb(47, 79, 79);
+}
+
+h2 {
+    color: rgb(47, 79, 79);
+}
+
+h3 {
+    color: rgb(47, 79, 79);
+}
+
+#importante {
+    color: red;
+}*/

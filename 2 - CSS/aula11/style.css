@@ -1,0 +1,95 @@
+/*USAMOS O CSS NUM ARQUIVO SEPARADO, E NELE COLOCAMOS TODAS AS CONFIGURAÇÕES DE ESTILOS DA PAGINA*/
+
+
+body {
+    background-color: rgb(212, 215, 216);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(20, 19, 19);
+    font-size: 20px;
+    margin: 0;
+}
+
+.container{
+    width: 900px;    
+    margin: 0 auto; /*uma das formas de centralizar uma pagina*/
+}
+
+.container-filho{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*aqui é recebido os parametros*/
+
+.foto-principal {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(255, 255, 255);/*shortherd*/
+    border-radius: 100%; /*para deixar a borda arrendodada*/
+     /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+    
+    margin: 30px 30px 0px 30px; /*shortherd*/
+    /*margin-top: 30px; /*espaçamento externo
+    margin-bottom: 30px;*/
+
+    /*padding: 5px; /*espaçamento interno*/
+
+    box-shadow: 0px 0px 10px rgb(97, 103, 104);
+    /*DIST. HORIZONTAL DIST. VERTICAL DESFOQUE COR*/
+}
+.titulo {
+    margin-bottom: 0px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.subtitulo {
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(58 55 55);
+    font-weight: 100;
+    letter-spacing: -1px; /*espaçamnento das letras*/
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin-bottom: 0;
+    margin-bottom: 0px;
+
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p {
+    margin-top: 0;
+}
+
+.social-icons{
+    width: 30px;
+    margin: 0 2px 0 2px;
+
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.jobs-list{
+    list-style: none;
+    padding-left:20px
+}
+
+.footer{
+    background-color: #000000;
+    color: #Ffff;
+    padding: 10px 0;
+    text-align: center;
+}

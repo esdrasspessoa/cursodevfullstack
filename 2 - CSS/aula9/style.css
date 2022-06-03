@@ -1,0 +1,60 @@
+/*USAMOS O CSS NUM ARQUIVO SEPARADO, E NELE COLOCAMOS TODAS AS CONFIGURAÇÕES DE ESTILOS DA PAGINA*/
+
+
+body {
+    background-color: rgb(212, 215, 216);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(20, 19, 19);
+    font-size: 20px;
+}
+
+/*aqui é recebido os parametros*/
+
+.foto-principal {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(255, 255, 255);/*shortherd*/
+    border-radius: 100%; /*para deixar a borda arrendodada*/
+     /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+    
+    margin: 30px 30px 30px 30px; /*shortherd*/
+    /*margin-top: 30px; /*espaçamento externo
+    margin-bottom: 30px;*/
+
+    /*padding: 5px; /*espaçamento interno*/
+
+    box-shadow: 0px 0px 10px rgb(97, 103, 104);
+    /*DIST. HORIZONTAL DIST. VERTICAL DESFOQUE COR*/
+}
+.titulo {
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+
+.subtitulo {
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(58 55 55);
+    font-weight: 100;
+    letter-spacing: -1px; /*espaçamnento das letras*/
+}
+/*
+h1 {
+    color: rgb(47, 79, 79);
+}
+
+h2 {
+    color: rgb(47, 79, 79);
+}
+
+h3 {
+    color: rgb(47, 79, 79);
+}
+
+#importante {
+    color: red;
+}*/
